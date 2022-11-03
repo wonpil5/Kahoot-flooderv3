@@ -116,7 +116,7 @@ async function start(req, res) {
       session.on("invalidName", () => {
         n(true);
       });
-      session.join(id, "1992 space movie " + (i<num?i + 1:"haha"), "bot gang");
+      session.join(id, "wonpils basement kids " + (i<num?i + 1:"haha"), "e");
     }).catch(err => {
       res.send(err);
       return;
